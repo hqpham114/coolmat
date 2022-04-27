@@ -3,3 +3,46 @@
 body{
     font-family: 'Hanna', sans-serif;
 }
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+.site-header{
+  padding: 30px; 
+  border-bottom: solid 1px #ccc; 
+}
+
+.header-inner{
+max-width: 1380px;
+margin-left:auto;
+margin-right:auto;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+
+.logo, .language-select{
+    display:block;
+    width:80px;
+}
+
+.language-select{
+    text-align:right;
+    font-size: 12px;
+}
+
+.menu{
+    display: flex;
+    padding-left: 0;
+    margin:0;
+    list-style:none;
+}
+
+.menu-item{
+    margin-left: 15px;
+    margin-right:15px;
+    text-transform: lowercase;
+}

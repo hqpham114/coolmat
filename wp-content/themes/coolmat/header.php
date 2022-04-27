@@ -26,7 +26,8 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'coolmat' ); ?></a>
-<!-- this is the outer element that takes up fu;; page width -->
+
+	<!-- this is the outer element that takes up fu;; page width -->
 	<header id="masthead" class="site-header">
 
 	<!-- this is our inner elemet that takes up 1380px -->
@@ -34,7 +35,7 @@
 
 	<div class="site-branding">
 			<!-- here we link to our logo from the asset folder -->
-		<img src="<?php	bloginfo('template_url'); ?>/assets/coolmat_logo.svg" alt="logo">
+		<img src="<?php	bloginfo('template_url'); ?>/assets/coolmat_logo.svg" alt="logo" class="logo">
 
 		</div><!-- .site-branding -->
 
